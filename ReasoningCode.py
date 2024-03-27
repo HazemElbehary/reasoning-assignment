@@ -125,7 +125,6 @@ def Rename_variables(lst):
 
 #[12] Example
 logical_clause = "∀x(P(x)→∃xQ(x))"
-# logical_clause = "∀x(∀y(p(y)→G(x)))→∃y(G(y))"
 print(logical_clause)
 step1 = Eliminate_implication(logical_clause)
 print("After Eliminate_implication : ", step1)
